@@ -1,0 +1,1702 @@
+/*general body font size def*/
+
+    body
+    {
+    	font-size: 16px;
+    }
+
+
+
+
+/*fonts for username menu and bins for media min 1024*/
+
+/*@media (min-width: 1024px){
+
+      body
+      {
+        font-size: 16px;
+      }
+
+
+      .user_name
+      {
+        position:fixed;
+        text-align:left;
+        top:30px;
+        left:120px;
+        font-family:SourceSansPro-Light;
+        font-size: 1.85em;
+        color:#fff;
+      }
+
+
+      h1
+      {
+        color: white;
+        line-height: 0.5;
+        padding-left:20px; 
+        font-family:SourceSansPro-Light;
+        font-size: 1.45em;
+        text-rendering: optimizeSpeed;
+      }
+
+
+      a1
+      {
+        font-family:SourceSansPro-Light;
+        font-size: 1.125em;
+        color:white;
+        height:15px; 
+        text-align:left;
+      }
+
+
+      bin_names
+      {
+        position: absolute;
+        font-family: OfficinaSansStd-Bold;
+        font-size: 1.438em;
+        color: #fff;
+        bottom: 10px;
+        margin-left: -41;
+        pointer-events:none;
+      }
+}*/
+
+/*fonts for username menu, bins, and for rating dsah img for media min 320 to 511*/
+@media (min-width: 320px) and (max-width: 639px){
+
+  body
+  {
+  	font-size: 11px;
+  }
+
+  h1
+  {
+    color: white;
+    line-height: 1.8;
+    padding-left: 10px;
+    font-family: SourceSansPro-Light;
+    font-size: 1em;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  a1
+  {
+    font-family:SourceSansPro-Light;
+    font-size: 1.125em;
+    color:white;
+    height:15px; 
+    text-align:left;
+  }
+
+
+  bin_names
+  {
+    position: absolute;
+    font-family: OfficinaSansStd-Bold;
+    font-size: 1.438em;
+    color: #fff;
+    bottom: 10px;
+    margin-left: -41;
+    pointer-events:none;
+    }
+
+
+  .user_name
+  {
+    position:fixed;
+    text-align:left;
+    top:16px;
+    left:80px;
+    font-family:SourceSansPro-Light;
+    font-size: 1.7em;
+    color:#fff;
+    display: none;
+  }
+
+
+  .white_dash_color_bubble
+  {
+  	position: absolute;
+  	bottom:33px;
+  	left: 10px;
+  }
+
+
+  .white_dash_black_bubble
+  {
+  	position: absolute;
+  	bottom:33px;
+  	left: 10px;
+  }
+
+
+  tag_feature
+  {
+    font-size: 1em;
+    position: absolute;
+    font-variant: small-caps;
+    color: white;
+    text-transform: uppercase;
+    font-family: SourceSansPro-Black;
+    font-weight: 600;
+    left: 10px;
+    top: -7px;
+  }
+
+
+  headlines_feature
+  {
+    font-size: 1.5em;
+    line-height: 24px;
+    position: relative;
+    top: -17px;
+    color: white;
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding: 20px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-right: 5;
+  }
+
+
+  subheading_feature
+  {
+    font-size: 1.4em;
+    line-height: 100%;
+    font-family:SourceSansPro-Italic;
+    position: absolute;
+    padding-right: 10px;
+    color:white; 
+    top: 30px;
+    left: 10px;
+    text-rendering: optimizeSpeed;
+    bottom: 799px;
+  }
+
+
+  under_feature
+  {
+    font-size:1.25em;
+    color: white; 
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 10px;
+    left: 10px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  sentence
+  {
+    font-size: 2em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    left: 20px;
+    padding-right:30px;
+    font-family: OfficinaSansStd-BoldItalic;
+    color:black; 
+    width: auto;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    padding-right: 5;
+  }
+
+
+  headlines_vertical
+  {
+    font-size: 1.85em;
+    line-height:24px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -26px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+    padding-right: 5;
+  }
+
+
+  subheading_vertical
+  {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-family:SourceSansPro-Italic;
+    position: relative;
+    padding-right: 10px;
+    color:white; 
+    top: -20px;
+    left: 5px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+    padding-right: 5;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  dash_vertical
+  {
+    top:110px;
+    left: 10px;
+    color: white;
+    height: 2px;
+    width: 40px;
+  }
+
+  under_vertical
+  {
+    font-size: 1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 10px;
+    left: 10px;
+    text-rendering: optimizeSpeed;
+  }
+
+  headlines_black
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -26px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+    padding-right: 5;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  under_balck
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 10px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  quots 
+  { 
+    	top:0;
+      position: absolute; 
+      padding-left: 10px;
+      background-image: src('img/quotemark.png');
+      color: black;
+  }
+
+
+  author
+  {
+    font-size: 1.4em;
+    font-weight: thin;
+    color: black;
+    font-family:SourceSansPro-Regular;
+    font-weight: regular;
+    position: absolute;
+    top: 88%;
+    right: 30px;
+    text-align:right;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  .white_dash
+  {
+    position: absolute;
+    bottom: 30;
+    left: 10;
+  }
+
+  .bin_tap_bubble
+  {
+    width: 60%;
+    position: absolute;
+    right: 100;
+    bottom: 15;
+    display: none;
+  }
+
+  .rating
+  {
+    width: 60%;
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    display: none;
+  }
+
+  .rating_one
+  {
+    width: 12%;
+    position: absolute;
+    right: 15;
+    bottom: 15;
+  }
+
+  .bin_tap_quotes
+  {
+    width: 60%;
+    position: absolute;
+    right: 100;
+    top: 15;
+    display: none;
+  }
+
+  .rating_quotes
+  {
+    width: 60%;
+    position: absolute;
+    right: 15;
+    top: 15;
+    display: none;
+  }
+
+
+  .rating_quotes_one
+  {
+    width: 12%;
+    position: absolute;
+    right: 15;
+    top: 15;
+  }
+
+  .headlines_withoutimg
+  {
+    font-size: 2rem;
+    line-height:50px;
+    pointer-events:all;
+    margin:30 30 30 30;
+    /*position: absolute;*/
+    top: 0px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -26px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    /*padding:20px;*/
+    display: inline-block;
+    padding-right: 5;
+  }
+
+}
+
+/*fonts for username menu, bins, and for rating dsah img for media min 512 to 1023*/
+@media (min-width: 640px) and (max-width: 1079px){
+
+  body
+  {
+  	font-size: 13px;
+  }
+
+  .white_dash_color_bubble
+  {
+    position: absolute;
+    left: 15px;
+    bottom: 35px;
+  }
+
+
+  .white_dash_black_bubble
+  {
+    position: absolute;
+    left: 15px;
+    bottom: 49px;
+  }
+
+  .bin_tap_bubble
+  {
+    position: absolute;
+    right: 100;
+    bottom: 15;
+    z-index: 100;
+    width: 60%;
+    display:none;
+  }
+
+  .rating
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    z-index: 100;
+    width: 60%;
+    display:none;
+  }
+
+  .rating_two_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    z-index: 100;
+    width: 33%;
+    display:none;
+  }
+
+
+  .rating_one
+  {
+    width: 12%;
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    pointer-events:all;
+  }
+
+  .bin_tap_quotes
+  {
+    position: absolute;
+    right: 100;
+    top: 15;
+    z-index: 100;
+    width: 60%;
+    display: none;
+  }
+
+  .rating_quotes
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+    z-index: 100;
+    width: 60%;
+    display: none;
+  }
+
+  .rating_quotes_one
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+    z-index: 100;
+    width: 12%;
+    pointer-events:all;
+  }
+
+
+  .rating_three
+  {
+    position: absolute;
+    right: 13;
+    bottom: 13;
+    z-index: 100;
+    width: 7%;
+  }
+
+
+  .rating_three_one
+  {
+    position: absolute;
+    right: 13;
+    bottom: 13;
+    z-index: 100;
+    width: 12%;
+    display: none;
+  }
+
+
+  h1
+  {
+    color: white;
+    line-height: 1;
+    padding-left:20px; 
+    font-family:SourceSansPro-Light;
+    font-size: 12px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  a1
+  {
+    font-family:SourceSansPro-Light;
+    font-size: 0.75em;
+    color:white;
+    height:15px; 
+    text-align:left;
+  }
+
+
+  bin_names
+  {
+    position: absolute;
+    font-family: OfficinaSansStd-Bold;
+    font-size: 1.438em;
+    color: #fff;
+    bottom: 10px;
+    margin-left: -41;
+    pointer-events:none;
+  }
+
+
+  .user_name
+  {
+    position:fixed;
+    text-align:left;
+    top:16px;
+    left:70px;
+    font-family:SourceSansPro-Light;
+    font-size: 1.6em;
+    color:#fff;
+  }
+
+
+  headlines_vertical
+  {
+    font-size: 1.5em;
+    line-height:24px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -21px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    padding-right:5%; 
+    display: inline-block;
+  }
+
+
+  subheading_vertical
+  {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-family:SourceSansPro-Italic;
+    position: relative;
+    padding-right: 10px;
+    color:white; 
+    top: -20px;
+    left: 5px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  dash_vertical
+  {
+    top:110px;
+    left: 15px;
+    color: white;
+    height: 2px;
+    width: 40px;
+  }
+
+
+  under_vertical
+  {
+    font-size: 1.25em;
+    color: white;
+    position: absolute;
+    font-family: SourceSansPro-Regular;
+    bottom: 10px;
+    left: 15px;
+    padding-right: 5%;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  headlines_black
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -21px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    padding-right:5%; 
+    display: inline-block;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  under_balck
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 15px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  quots 
+  { 
+    top:0;
+    position: absolute; 
+    padding-left: 10px;
+    background-image: src('img/quotemark.png');
+    color: black;
+  }
+
+
+  sentence
+  {
+    font-size: 1.825em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    padding-right:5%;
+    font-family: OfficinaSansStd-BoldItalic;
+    font-weight: bolditalic;
+    color:black; 
+    width: auto;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  author
+  {
+    font-size: 1.2em;
+    font-weight: thin;
+    color: black;
+    font-family:SourceSansPro-Regular;
+    font-weight: regular;
+    position: absolute;
+    top: 91%;
+    right: 30px;
+    text-align:right;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  tag_feature
+  {
+    font-size: 1em;
+    position: absolute;
+    font-variant:small-caps;
+    color:white;
+    text-transform:uppercase;
+    font-family: SourceSansPro-Black;
+    font-weight: black;
+    font-weight: 600;
+    left: 15px;
+    top: -10px;
+  }
+
+
+  headlines_feature
+  {
+    font-size: 1.6em;
+    line-height: 35px;
+    position: relative;
+    top: -26px;
+    color: white;
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -21px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+  }
+
+
+  subheading_feature
+  {
+    font-size: 1.4em;
+    line-height: 100%;
+    font-family:SourceSansPro-Italic;
+    position: absolute;
+    padding-right: 10px;
+    color:white; 
+    top: 30px;
+    left: 15px;
+    text-rendering: optimizeSpeed;
+    bottom: 799px;
+  }
+
+  under_feature
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 15px;
+    text-rendering: optimizeSpeed;
+  }
+
+  .headlines_withoutimg
+  {
+    font-size: 2.5rem;
+    line-height:50px;
+    pointer-events:all;
+    margin:30 30 30 30;
+    /*position: relative;*/
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -21px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    /*padding:20px;*/
+    padding-right:5%; 
+    display: inline-block;
+  }
+
+}
+
+/*fonts for username menu, bins, and for rating dsah img for media min 1024 to 1279*/
+/*@media (min-width: 1024px) and (max-width: 1279px){
+
+  body
+  {
+  	font-size: 16px;
+  }
+
+
+  .white_dash_color_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 58px;
+  }
+
+
+  .white_dash_black_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 49px;
+    }
+
+  .bin_tap_bubble
+  {
+    position: absolute;
+    right: 100;
+    bottom: 15;
+    pointer-events:all;
+  }
+
+  .rating
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    pointer-events:all;
+  }
+
+  .rating_two_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    z-index: 100;
+    display:none;
+  }
+
+  .rating .img
+  {
+    height:100%;
+    background: #000;
+  }
+
+  .bin_tap_quotes
+  {
+    position: absolute;
+    right: 100;
+    top: 15;
+    pointer-events:all;
+  }
+
+  .rating_quotes
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+    pointer-events:all;
+  }
+
+
+  .rating_quotes .img
+  {
+    height:100%;
+    background: #000;
+  }
+
+
+  headlines_vertical
+  {
+    font-size: 1.5em;
+    line-height:24px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    padding-bottom: 40px;
+    display: inline-block;
+  }
+
+
+  subheading_vertical
+  {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-family:SourceSansPro-Italic;
+    position: relative;
+    padding-right: 10px;
+    color:white; 
+    top: -20px;
+    left: 5px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  dash_vertical
+  {
+    top:110px;
+    left: 20px;
+    color: white;
+    height: 2px;
+    width: 40px;
+  }
+
+
+  under_vertical
+  {
+    font-size: 1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  headlines_black
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+  under_balck
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  quots 
+  { 
+    top:0;
+    position: absolute; 
+    padding-left: 10px;
+    background-image: src('img/quotemark.png');
+    color: black;
+  }
+
+
+  sentence
+  {
+    font-size: 1.25em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    padding-left: 30px ;
+    padding-right:30px;
+    font-family: OfficinaSansStd-BoldItalic;
+    font-weight: bolditalic;
+    color:black; 
+    width: auto;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  author
+  {
+    font-size: 1.2em;
+    font-weight: thin;
+    color: black;
+    font-family:SourceSansPro-Regular;
+    font-weight: regular;
+    position: absolute;
+    top: 91%;
+    right: 30px;
+    text-align:right;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  tag_feature
+  {
+    font-size: 1em;
+    position: absolute;
+    font-variant:small-caps;
+    color:white;
+    text-transform:uppercase;
+    font-family: SourceSansPro-Black;
+    font-weight: black;
+    font-weight: 600;
+    left: 20px;
+    top: -39px;
+  }
+
+
+  headlines_feature
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -50px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+  }
+
+
+  subheading_feature
+  {
+    font-size: 1.4em;
+    line-height: 100%;
+    font-family:SourceSansPro-Italic;
+    position: absolute;
+    padding-right: 10px;
+    color:white; 
+    top: 30px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+    bottom: 799px;
+  }
+
+
+  under_feature
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+   .headlines_withoutimg
+  {
+    font-size: 3em;
+    line-height:50px;
+    pointer-events:all;
+    margin:30 30 30 30;
+    top: 0px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding-bottom: 40px;
+    display: inline-block;
+  }
+
+}*/
+
+/*fonts for username menu, bins, and for rating dsah img for media min 1280 to 1919*/
+@media (min-width: 1080px) and (max-width: 1919px){
+
+  body
+  {
+  	font-size: 16px;
+  }
+
+
+  .white_dash_color_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 48px;
+  }
+
+
+  .white_dash_black_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 49px;
+  }
+
+  .bin_tap_bubble
+  {
+    position: absolute;
+    right: 100;
+    bottom: 15;
+  }
+
+  .bin_tap_quotes
+  {
+    position: absolute;
+    right: 100;
+    top: 15;
+  }
+
+  .rating
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+  }
+
+
+  .rating_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    pointer-events:all;
+  }
+
+  .rating_two_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    z-index: 100;
+    display:none;
+  }
+
+  .bin_tap_quotes
+  {
+    position: absolute;
+    right: 100;
+    top: 15;
+  }
+
+  .rating_quotes
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+  }
+
+
+  .rating_quotes_one
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+    pointer-events:all;
+  }
+
+
+  headlines_vertical
+  {
+    font-size: 1.5em;
+    line-height:24px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    padding-bottom: 40px;
+    display: inline-block;
+  }
+
+
+  subheading_vertical
+  {
+    font-size: 1.3em;
+    line-height: 30px;
+    font-family:SourceSansPro-Italic;
+    position: relative;
+    padding-right: 10px;
+    color:white; 
+    top: -20px;
+    left: 5px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  dash_vertical
+  {
+    top:110px;
+    left: 20px;
+    color: white;
+    height: 2px;
+    width: 40px;
+  }
+
+
+  under_vertical
+  {
+    font-size: 1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+  headlines_black
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -23px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+  }
+
+  .hideOverflow
+  {
+    overflow: hidden; 
+  }
+
+
+  under_balck
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+  quots 
+  { 
+    top:0;
+      position: absolute; 
+      padding-left: 10px;
+      background-image: src('img/quotemark.png');
+      color: black;
+  }
+
+  sentence
+  {
+    font-size: 2em;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    padding-left: 30px ;
+    padding-right:30px;
+    font-family: OfficinaSansStd-BoldItalic;
+    font-weight: bolditalic;
+    color:black; 
+    width: auto;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+    display: inline-block;
+  }
+
+
+  author
+  {
+    font-size: 1.3em;
+    font-weight: thin;
+    color: black;
+    font-family:SourceSansPro-Regular;
+    font-weight: regular;
+    position: absolute;
+    top: 93%;
+    right: 30px;
+    text-align:right;
+    text-rendering: optimizeSpeed;
+  }
+
+
+  tag_feature
+  {
+    font-size: 1em;
+    position: absolute;
+    font-variant:small-caps;
+    color:white;
+    text-transform:uppercase;
+    font-family: SourceSansPro-Black;
+    font-weight: black;
+    font-weight: 600;
+    left: 20px;
+    top: -39px;
+  }
+
+
+  headlines_feature
+  {
+    font-size: 1.6em;
+    line-height:35px;
+    position: relative;
+    top: -50px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    padding:20px;
+    display: inline-block;
+  }
+
+
+  subheading_feature
+  {
+    font-size: 1.4em;
+    line-height: 100%;
+    font-family:SourceSansPro-Italic;
+    position: absolute;
+    padding-right: 10px;
+    color:white; 
+    top: 30px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+    bottom: 799px;
+  }
+
+
+  under_feature
+  {
+    font-size:1.25em;
+    color: white;
+    position: absolute;
+    font-family:SourceSansPro-Regular;
+    bottom: 20px;
+    left: 20px;
+    text-rendering: optimizeSpeed;
+  }
+
+  .headlines_withoutimg
+  {
+    font-size: 3rem;
+    line-height:50px;
+    pointer-events:all;
+    margin:30 30 30 30;
+    /*position: relative;*/
+    top: 0px;
+    color:white; 
+    font-family: OfficinaSansStd-Bold;
+    font-weight: bold;
+    width: auto;
+    left: -16px;
+    text-rendering: optimizeSpeed;
+    text-align: left;
+    /*padding:20px;*/
+    padding-bottom: 40px;
+    display: inline-block;
+  }
+
+}
+
+/*fonts for username menu, bins, and for rating dsah img for media min 1920*/
+@media (min-width: 1920px){
+
+  body
+  {
+  	font-size: 16px;
+  }
+
+
+  .white_dash_color_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 52px;
+  }
+
+
+  .white_dash_black_bubble
+  {
+    position: absolute;
+    left: 20px;
+    bottom: 52px;
+  }
+
+  .bin_tap_bubble
+  {
+    position: absolute;
+    right: 100;
+    bottom: 15;
+  }
+
+  .bin_tap_quotes
+  {
+    position: absolute;
+    right: 100;
+    top: 15;
+  }
+
+  .rating
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+  }
+
+
+  .rating_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    pointer-events:all;
+  }
+
+   .rating_two_one
+  {
+    position: absolute;
+    right: 15;
+    bottom: 15;
+    z-index: 100;
+    display:none;
+  }
+
+  .rating_quotes
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+  }
+
+
+  .rating_quotes_one
+  {
+    position: absolute;
+    right: 15;
+    top: 15;
+    pointer-events:all;
+  }
+
+
+    headlines_vertical
+    {
+      font-size: 1.75em;
+      line-height:35px;
+      position: relative;
+      top: -23px;
+      color:white; 
+      font-family: OfficinaSansStd-Bold;
+      font-weight: bold;
+      width: auto;
+      left: -16px;
+      text-rendering: optimizeSpeed;
+      text-align: left;
+      padding:20px;
+      padding-bottom: 40px;
+      display: inline-block;
+    }
+
+
+    subheading_vertical
+    {
+      font-size: 1.3em;
+      line-height: 30px;
+      font-family:SourceSansPro-Italic;
+      position: relative;
+      padding-right: 10px;
+      color:white; 
+      top: -20px;
+      left: 5px;
+      text-rendering: optimizeSpeed;
+      display: inline-block;
+    }
+
+
+    .hideOverflow
+    {
+      overflow: hidden; 
+    }
+
+
+    dash_vertical
+    {
+      top:110px;
+      left: 20px;
+      color: white;
+      height: 2px;
+      width: 40px;
+    }
+
+
+    under_vertical
+    {
+      font-size: 1.25em;
+      color: white;
+      position: absolute;
+      font-family:SourceSansPro-Regular;
+      bottom: 20px;
+      left: 20px;
+      text-rendering: optimizeSpeed;
+    }
+
+    headlines_black
+    {
+      font-size: 1.6em;
+      line-height:35px;
+      position: relative;
+      top: -23px;
+      color:white; 
+      font-family: OfficinaSansStd-Bold;
+      font-weight: bold;
+      width: auto;
+      left: -16px;
+      text-rendering: optimizeSpeed;
+      text-align: left;
+      padding:20px;
+      display: inline-block;
+    }
+
+    .hideOverflow
+    {
+      overflow: hidden; 
+    }
+
+
+    under_balck
+    {
+      font-size:1.25em;
+      color: white;
+      position: absolute;
+      font-family:SourceSansPro-Regular;
+      bottom: 20px;
+      left: 20px;
+      text-rendering: optimizeSpeed;
+    }
+
+    quots 
+    { 
+      top:0;
+      position: absolute; 
+      padding-left: 10px;
+      background-image: src('img/quotemark.png');
+      color: black;
+    }
+
+    sentence
+    {
+      font-size: 2.25em;
+      font-weight: 500;
+      position: absolute;
+      bottom: 15%;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: OfficinaSansStd-BoldItalic;
+      color: black;
+      width: auto;
+      left: 20px;
+      text-rendering: optimizeSpeed;
+      display: inline-block;
+      line-height: 1.5;
+    }
+
+
+    author
+    {
+
+      font-size: 1.5em;
+      font-weight: thin;
+      color: black;
+      font-family:SourceSansPro-Regular;
+      font-weight: regular;
+      position: absolute;
+      /*top: 88%;*/
+      bottom:25px;
+      right: 30px;
+      text-align:right;
+      text-rendering: optimizeSpeed;
+    }
+
+    tag_feature
+    {
+      font-size: 1em;
+      position: absolute;
+      font-variant:small-caps;
+      color:white;
+      text-transform:uppercase;
+      font-family: SourceSansPro-Black;
+      font-weight: black;
+      font-weight: 600;
+      left: 20px;
+      top: -39px;
+
+    }
+
+
+    headlines_feature
+    {
+      font-size: 1.6em;
+      line-height:35px;
+      position: relative;
+      top: -50px;
+      color:white; 
+      font-family: OfficinaSansStd-Bold;
+      font-weight: bold;
+      width: auto;
+      left: -16px;
+      text-rendering: optimizeSpeed;
+      text-align: left;
+      padding:20px;
+      display: inline-block;
+
+    }
+
+    subheading_feature
+    {
+      font-size: 1.4em;
+      line-height: 100%;
+      font-family:SourceSansPro-Italic;
+      position: absolute;
+      padding-right: 10px;
+      color:white; 
+      top: 30px;
+      left: 20px;
+      text-rendering: optimizeSpeed;
+      bottom: 799px;
+    }
+
+
+    under_feature
+    {
+      font-size:1.25em;
+      color: white;
+      position: absolute;
+      font-family:SourceSansPro-Regular;
+      bottom: 20px;
+      left: 20px;
+      text-rendering: optimizeSpeed;
+    }
+
+
+    .headlines_withoutimg
+    {
+      font-size: 3.5rem;
+      line-height:60px;
+      margin:30 30 30 30;
+      pointer-events:all;
+      top: 0px;
+      color:white; 
+      font-family: OfficinaSansStd-Bold;
+      font-weight: bold;
+      width: auto;
+      left: -16px;
+      text-rendering: optimizeSpeed;
+      text-align: left;
+      padding-bottom: 40px;
+      display: inline-block;
+    }
+
+  }

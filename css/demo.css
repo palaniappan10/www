@@ -1,0 +1,302 @@
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+}
+
+.make_center
+{
+ top:0;
+ float:left;
+ position:absolute;
+ width:512px;
+ height:512px;
+ pointer-events:none;
+}
+
+.make_center_one_two
+{
+ top:0;
+ float:left;
+ position:absolute;
+ width:512px;
+ height:1024px;
+ pointer-events:none;
+}
+
+.make_center_two_one
+{
+ top:0;
+ float:left;
+ position:absolute;
+ width:1024px;
+ height:512px;
+ pointer-events:none;
+}
+
+.loading:after {
+border-width: 0 25px 0 0;
+border-style: solid;
+border-color: rgba(0, 0, 0, .5);
+border-radius: 50%;
+display: block;
+height: 50px;
+left: 50%;
+margin: -25px 0 0 -25px;
+position: absolute;
+top: 40%;
+width: 50px;
+
+content: "";
+
+animation: spin 1s infinite linear;
+-webkit-animation: spin 1s infinite linear;
+}
+@keyframes spin {
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+from { -webkit-transform: rotate(0deg); }
+to { -webkit-transform: rotate(360deg); }
+}
+
+
+.red_demo_box
+{
+	width:250px;
+	height:250px;
+	background: red;
+	top:140px;
+	left: 200px;
+}
+
+/*draggable item size*/
+	.draggable_item
+	{
+		width: 10%;
+		height:10%;
+	}
+
+	.draggable_small_item
+	{
+		width: 100px;
+		height:100px;
+	}
+
+
+	.bin_item
+	{
+		width:100%;
+		height:25px;
+	}
+
+	.bin_item.img
+	{
+		height:64px;
+		width:64px;
+		float:left;	
+	}
+
+	.bin_item.text
+	{
+		display: none;
+	}
+
+	.inside_bin
+	{
+		width:256px;
+		height:100px;
+	}
+
+	.inside_bin >img
+	{
+		width:40%;
+		height:100%;
+		overflow:hidden;
+		display: inline-block; 
+		margin-top:-10; 
+		margin-left:-10;	
+	}
+
+	.head
+	{
+		font-size: 14px;
+		font-family: OfficinaSansStd-Bold;
+		text-rendering: optimizeSpeed;
+		margin: 0 auto;
+		padding: 12;
+		text-align: left;
+		color: #fff;
+	}
+
+	.inside_bin.bubble
+	{
+		padding:15px;
+		height: 100%;
+		color:#000;
+		background:#f3961c;
+		top: -16;
+
+	}
+
+	.bubble.left
+	{
+		width: 60%;
+		top: -100;
+		left: 36%;
+		height: 100%;
+		margin-right: 50px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.bubble_smalltri
+	{
+		content:"";
+		position:absolute; 
+		border-style:solid;
+	    display:block;
+	    width:0;
+		top: 10px;
+		left: -12px;
+		bottom: auto;
+
+	}
+
+	.bottom_shade
+	{
+		position: absolute;
+		padding: 50px;
+		width: 100%;
+		left: 0;
+		background-image: url('../img/bubble/shading2.png');
+		background-repeat: repeat-x;
+		bottom: 0px;
+		z-index: 10;
+	}
+
+	.pull_up
+	{
+		position:absolute;
+		width:100%;
+		height:300px;
+		display:inline-block;
+		top:1000px;
+		
+		display:none;
+	}
+	#inner_pull_down
+	{
+		position: relative;
+		top: 150;
+	}
+	#inner_pull_down> p
+	{
+		color: #fff;
+		position:relative;
+		font-size: 2em;
+		text-align:center;
+
+	}
+
+	#inner_pull_down > img
+	{
+		position: relative;
+		text-align:center;
+		right: 200;
+	}
+
+	#inner_pull_up
+	{
+		position: relative;
+		top: -150;
+	}
+	#inner_pull_up > p
+	{
+		color: #fff;
+		position:relative;
+		font-size: 2em;
+		text-align:center;
+
+	}
+
+	#inner_pull_up > img
+	{
+		position: relative;
+		text-align:center;
+		right: 200;
+	}
+
+	.pull_down
+	{
+		position:absolute;
+		width:100%;
+		height:300px;
+		top:1000px;
+		display:inline-block;
+		text-align:center;
+		display:none;
+	}
+
+	@-webkit-keyframes pull_up_ani
+	{
+		0% {
+			-webkit-transform-origin: center center;
+			-webkit-transform: rotate(0);
+			opacity: 1;
+		}
+		
+		100% {
+			-webkit-transform-origin: center center;
+			-webkit-transform: rotate(90deg);
+			opacity: 1;
+		}
+	}
+
+
+	.pull_up_ani 
+	{
+		-webkit-perspective:0;
+		-webkit-backface-visibility: hidden;
+		-webkit-animation-name: pull_up_ani;
+		-moz-animation-name: pull_up_ani;
+		-o-animation-name: pull_up_ani;
+		animation-name: pull_up_ani;
+		-webkit-animation: pull_up_ani .35s; 
+		-moz-animation: pull_up_ani .25s; 
+		-ms-animation: pull_up_ani 2.5s;
+		-o-animation: pull_up_ani .25s; 
+		animation: pull_up_ani .25s;
+	}
+
+	@-webkit-keyframes pull_down_ani
+	{
+		0% {
+			-webkit-transform-origin: center center;
+			-webkit-transform: rotate(0);
+			opacity: 1;
+		}
+		
+		100% {
+			-webkit-transform-origin: center center;
+			-webkit-transform: rotate(-90deg);
+			opacity: 1;
+		}
+	}
+
+
+	.pull_down_ani 
+	{
+		-webkit-perspective:0;
+		-webkit-backface-visibility: hidden;
+		-webkit-animation-name: pull_down_ani;
+		-moz-animation-name: pull_down_ani;
+		-o-animation-name: pull_down_ani;
+		animation-name: pull_down_ani;
+		-webkit-animation: pull_down_ani .35s; 
+		-moz-animation: pull_down_ani .25s; 
+		-ms-animation: pull_down_ani 2.5s;
+		-o-animation: pull_down_ani .25s; 
+		animation: pull_down_ani .25s;
+	}
+

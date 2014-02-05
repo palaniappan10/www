@@ -1,0 +1,357 @@
+.bubble {
+	position: absolute;
+	font-family: OfficinaSansStd;
+	font: 300 13px/20px;
+}
+
+
+blockquote {
+    margin: 1em 0;
+}
+
+
+blockquote p {
+    margin:0; 
+    font-size: 2em;
+}
+
+
+
+
+/*--BUBBLE COLOURS-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+	.colorWhite  {
+			background: #fff;
+		}
+
+	/* WORLD: Maroon */
+
+		.color4  
+		{
+			/*background: #a33131;
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, #a33131), color-stop(100%, #8a2525));
+			background: -webkit-linear-gradient(-45deg, #a331/*31 0%, #8a2525 100%);
+			background: linear-gradient(135deg, #a33131 0%, #8a2525 100%);*/
+			background: url(../img/goodnewsbubblegradients/world.png);
+			background-repeat:no-repeat;
+			background-size: 100%;
+			display: block;
+
+		}
+
+		.tricolor4 {
+			border-width: 0 20px 20px 20px;
+			border-style: solid;
+			border-color: #a33131 transparent;
+		}
+
+		.triscolor4 {
+			border-width: 12px 12px 12px 0;
+			border-style: solid;
+			border-color: #a33131 transparent;
+		}
+
+
+
+
+	/* LOCAL: Yellow */
+		
+		.color3  {
+			/*background: #eda737;
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, #eda737), color-stop(100%, #cf9231));
+			background: -webkit-linear-gradient(-45deg, #eda737 0%, #cf9231 100%);
+			background: linear-gradient(135deg, #eda737 0%, #cf9231 100%);*/
+			background: url(../img/goodnewsbubblegradients/local.png);
+			background-repeat:no-repeat;
+			background-size: 100%;
+			display: block;
+		}
+
+		.tricolor3 {
+			border-width: 0 20px 20px 20px;
+			border-style: solid;
+			border-color: #eda737 transparent;
+		}
+
+		.triscolor3 {
+			border-width: 12px 12px 12px 0;
+			border-style: solid;
+			border-color: #eda737 transparent;
+		}
+
+
+
+
+	/* SCI-TECH: Grey */
+		
+		.color0  {
+			/*background: #92a2a2;
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, #92a2a2), color-stop(100%, #738b8d));
+			background: -webkit-linear-gradient(-45deg, #92a2a2 0%, #738b8d 100%);
+			background: linear-gradient(135deg, #92a2a2 0%, #738b8d 100%);*/
+			background: url(../img/goodnewsbubblegradients/scitech.png);
+			background-repeat:no-repeat;
+			background-size: 100%;
+			display: block;
+		}
+
+		.tricolor0 {
+			border-width: 0 20px 20px 20px;
+			border-style: solid;
+			border-color: #92a2a2 transparent;
+		}
+
+		.triscolor0 {
+			border-width: 12px 12px 12px 0;
+			border-style: solid;
+			border-color: #92a2a2 transparent;
+		}
+
+
+
+
+	/* HEALTH: Green */
+		
+		.color1  {
+			/*background: #31a466;
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, #31a466), color-stop(100%, #1e824c));
+			background: -webkit-linear-gradient(-45deg, #31a466 0%, #1e824c 100%);
+			background: linear-gradient(135deg, #31a466 0%, #1e824c 100%);*/
+			background: url(../img/goodnewsbubblegradients/health.png) no-repeat;
+			background-repeat:no-repeat;
+			background-size: 100%;
+			display: block;
+		}
+
+		.tricolor1 {
+			border-width: 0 20px 20px 20px;
+			border-style: solid;
+			border-color: #31a466 transparent;
+		}
+
+		.triscolor1 {
+			border-width: 12px 12px 12px 0;
+			border-style: solid;
+			border-color: #31a466 transparent;
+		}
+
+
+
+
+	/* SPORTS: Brown */
+		
+		.color2  {
+			/*background: #c97954;
+			background: -webkit-gradient(left top, right bottom, color-stop(0%, #c97954), color-stop(100%, #a86644));
+			background: -webkit-linear-gradient(-45deg, #c97954 0%, #a86644 100%);
+			background: linear-gradient(135deg, #c97954 0%, #a86644 100%);*/
+			background: url(../img/goodnewsbubblegradients/sports.png) no-repeat;
+			background-repeat:no-repeat;
+			background-size: 100%;
+			display: block;
+		}
+
+		.tricolor2 {
+			border-width: 0 20px 20px 20px;
+			border-style: solid;
+			border-color: #c97954 transparent;
+		}
+
+		.triscolor2 {
+			border-width: 12px 12px 12px 0;
+			border-style: solid;
+			border-color: #c97954 transparent;
+		}
+
+
+
+
+/*--BUBBLE PROPERTIES-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+	.Normal_Bubble {
+		position: absolute;
+		padding: 15px;
+		width: 100%;
+		bottom: 0px;
+		pointer-events: none;
+	}
+
+
+	.Normal_Bubble_smalltri {
+		content:"";
+		position:absolute;
+		top:-20px;
+		bottom:auto;
+		left: auto;
+	    display:block; 
+	    width:0;
+	    pointer-events: none;
+	}
+
+	.Featured_bubble {
+		position: absolute;
+		padding: 15px;
+		height: 100%;
+		color: #000;
+		background :#f3961c;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#fac63a), to(#faaf3a));
+		background: linear-gradient(#facf3a, #faaf3a);
+		top: -16px;
+		pointer-events: none;
+	}
+
+
+	.Featured_bubble.right {
+		width: 50%;
+		top: 0 ;
+		left: 0;
+		border-top: 40px;
+		margin-right: 50px;
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(#fac63a), to(#faaf3a));
+		background: linear-gradient(#facf3a, #faaf3a);
+		position: absolute;
+		pointer-events: none;
+	}
+
+
+	.Featured_bubble:after {
+		content: "";
+		top: 40px;
+		position: absolute;
+		bottom: -15px;
+		left: 50px;
+		border-width: 15px 15px 0;
+		border-style: solid;
+		border-color: #f3961c transparent;
+	    display: block; 
+	    width: 0;
+	    pointer-events: none;
+	}
+
+
+	.Featured_bubble.right:after {
+		top: 16px;
+		right: -20px;
+		bottom: auto;
+	    left: auto;
+		border-width: 20px 0 20px 20px;
+		border-color: transparent #facb3a;
+		pointer-events: none;
+	}
+
+
+	.Black_shade {
+		position: absolute;
+		padding: 15px;
+		width: 100%;
+		background: url('../img/bubble/shading.png');
+		background-repeat: repeat-x;
+		bottom: -1px;
+		pointer-events: none;
+	}
+
+
+
+
+/*--SCREENSIZES-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+	/*---320 TO 511px-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+		@media (min-width: 320px) and (max-width: 511px)  {
+
+			.Quotes_bubble {
+				position: absolute;
+				padding: 15px;
+				height: 50%;
+				color: #000;
+				background: #f3961c;
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#fac63a), to(#faaf3a));
+				background: linear-gradient(#facf3a, #faaf3a);
+				top: -16px;
+				pointer-events: none;
+			}
+
+
+			.Quotes_bubble.left {
+				width: 100%;
+				top: 50% ;
+				border-top: 40px;
+				margin-right: 50px;
+				background: #fff;
+				position: absolute;
+			}
+
+			
+			.Quotes_bubble:after {
+				content: "";
+				position: absolute;
+				bottom: -15px; 
+				left: 50px; 
+				border-width: 15px 15px 0;
+				border-style: solid;
+				border-color: #fff transparent;
+			    display: block;
+			    width: 0;
+			}
+
+			
+			.Quotes_bubble.left:after {
+				top: -20px;
+				left: 80%;
+				bottom: auto;
+				border-width: 0px 20px 20px 20px;
+			}
+
+		}
+
+
+	/*---512px and above----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+		@media (min-width: 512px) {
+
+			.Quotes_bubble {
+				position: absolute;
+				padding: 15px;
+				height: 100%;
+				color: #000;
+				background: #f3961c;
+				background: -webkit-gradient(linear, 0 0, 0 100%, from(#fac63a), to(#faaf3a));
+				background: linear-gradient(#facf3a, #faaf3a);
+				top: -16px;
+				pointer-events: none;
+			}
+
+
+			.Quotes_bubble.left {
+				width: 50%;
+				top: 0 ;
+				left: 50%;
+				border-top: 40px;
+				margin-right: 50px;
+				background: #fff;
+				position: absolute;
+			}
+
+			.Quotes_bubble:after {
+				content: "";
+				position: absolute;
+				bottom: -15px; 
+				left: 50px; 
+				border-width: 15px 15px 0;
+				border-style: solid;
+				border-color: #fff transparent;
+			    display: block;
+			    width: 0;
+			}
+
+			.Quotes_bubble.left:after {
+				top: 16px;
+				left: -20px;
+				bottom: auto;
+				border-width: 20px 20px 20px 0;
+				border-color: transparent #fff;
+			}
+		}

@@ -1,0 +1,99 @@
+/*<style>*/
+
+.bubblingG {
+text-align: center;
+width:100%;
+height:188px;
+position: absolute;
+left: 50%;
+text-align: center;
+z-index: 50;
+margin-top: 10%;
+}
+
+.bubblingG_NewsDiv {
+text-align: center;
+width:100%;
+height:188px;
+position: relative;
+text-align: center;
+z-index: 50;
+}
+
+.bubblingG span {
+display: inline-block;
+vertical-align: middle;
+width: 38px;
+height: 38px;
+margin: 94px auto;
+background: #3B75B3;
+-webkit-border-radius: 188px;
+-webkit-animation: bubblingG 1.3s infinite alternate;
+}
+
+.bubblingG_NewsDiv span {
+display: inline-block;
+vertical-align: middle;
+width: 38px;
+height: 38px;
+margin: 94px auto;
+background: #3B75B3;
+-webkit-border-radius: 188px;
+-webkit-animation: bubblingG 1.3s infinite alternate;
+}
+
+#bubblingG_1 {
+-webkit-animation-delay: 0.78s;
+}
+
+#bubblingG_2 {
+-webkit-animation-delay: 0.39s;
+}
+
+#bubblingG_3 {
+-webkit-animation-delay: 0s;
+}
+
+@-webkit-keyframes bubblingG {
+0% {
+width: 25px;
+height: 25px;
+background-color:#b6b6b6;
+-webkit-transform: translateY(0);
+}
+
+100% {
+width: 40px;
+height: 40px;
+background-color:#344368;
+-webkit-transform: translateY(-79px);
+}
+
+}
+
+@-webkit-keyframes bubblingG_NewsDiv {
+0% {
+width: 25px;
+height: 25px;
+background-color:#b6b6b6;
+-webkit-transform: translateY(0);
+}
+
+100% {
+width: 40px;
+height: 40px;
+background-color:#344368;
+-webkit-transform: translateY(-79px);
+}
+
+}
+
+/*</style>*/
+/*<div class="bubblingG">
+<span id="bubblingG_1">
+</span>
+<span id="bubblingG_2">
+</span>
+<span id="bubblingG_3">
+</span>
+</div> - See more at: http://cssload.net/#sthash.NMJ8FKkJ.dpuf*/
